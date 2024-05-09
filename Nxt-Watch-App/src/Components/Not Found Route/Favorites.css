@@ -1,0 +1,20 @@
+.VideoPlayerContainer-Heading {
+  @media screen and (min-width: 500px) and (max-width: 768px) {
+    font-size: 25px;
+    margin-top: 15px;
+  }
+  @media screen and (max-width: 500px) {
+    font-size: 21px;
+    margin-top: 15px;
+  }
+}
+
+.AllTrendingVideoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  max-height: calc(100vh - 150px);
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}

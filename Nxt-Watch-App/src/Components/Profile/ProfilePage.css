@@ -1,0 +1,368 @@
+.NavBarPos {
+  width: 100%;
+  position: relative;
+  height: 64px;
+}
+.postionNav {
+  z-index: 99;
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+}
+
+.ProfileContainer {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.LoadingMid {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mid-Section {
+  height: 100%;
+  width: 98%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.profliePicContainer {
+  display: flex;
+  justify-content: flex-start;
+  width: 70%;
+  margin-top: 20px;
+}
+.profliePicBox {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+.profliePicBox > div {
+  width: 60%;
+}
+.profliePicBox > div > p {
+  font-size: 14px;
+  width: 100%;
+}
+.profliePicBox > div > h3 {
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.profliePicBox > img {
+  width: 140px;
+}
+
+.bannerContainer {
+  margin-top: 10px;
+  width: 70%;
+  display: flex;
+  position: relative;
+}
+
+.editBtn {
+  width: 20px;
+  height: 20px;
+
+  border-width: 0px;
+  margin-left: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.UploadVideoBox {
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.1);
+  min-width: 200px;
+  padding: 15px;
+  width: 40%;
+  min-width: 300px;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  top: 27%;
+  gap: 10px;
+  position: fixed;
+  background-color: #fff;
+  border: 2px solid black;
+  z-index: 99;
+  border-radius: 3px;
+  color: #ff0b37;
+  font-weight: bold;
+}
+
+.UploadVideoBox > h5 {
+  margin-top: 15px;
+}
+
+.UploadVideoBox > input {
+  height: 28px;
+  margin-top: 0px;
+  border-color: #c5c5c5;
+  padding-left: 3px;
+  outline: none;
+  font-size: 16px;
+}
+
+.uploadVideoBtn {
+  height: 30px;
+  border-radius: 3px;
+  border-width: 0px;
+  background-color: #ff0b37;
+
+  width: 40px;
+  transition: transform 0.3s ease-in-out;
+  outline: none;
+  margin: 0px auto;
+  margin-top: 15px;
+}
+
+.uploadVideoBtn:active {
+  transform: scale(0.85);
+  transition: transform 0.2s ease-in-out;
+}
+
+.editBtn:active {
+  transform: scale(0.6);
+  transition: transform 0.2s ease-in-out;
+}
+
+.editInputBox {
+  padding-top: 6px;
+  z-index: 66;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.1);
+  min-width: 250px;
+  position: absolute;
+  border: 2px solid black;
+  background-color: #fff;
+  border-radius: 1px;
+  right: 50%;
+  top: 38%;
+  transform: translate(50%);
+  width: 50%;
+  height: 315px;
+  display: flex;
+
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  /* justify-content: space-between; */
+  border-radius: 4px;
+}
+
+.editInputBox > input {
+  height: 35px;
+  width: 90%;
+  border-radius: 3px;
+  border-color: gray;
+  outline: none;
+  padding-left: 3px;
+  font-size: 16px;
+}
+.uploadBio {
+  height: 35px;
+  border-radius: 3px;
+  border-width: 0px;
+  background-color: #ff0b37;
+  margin: 15px 0px;
+  width: 55px;
+  transition: transform 0.3s ease-in-out;
+  outline: none;
+}
+.editInputBox > label {
+  margin: 10px;
+  margin-bottom: 6px;
+  color: #ff0b37;
+  font-weight: bold;
+}
+
+.editBtn {
+  background-color: transparent;
+}
+
+.BackArrowDiv {
+  height: 22px;
+  margin-top: 16px;
+  position: relative;
+  width: 97%;
+  position: relative;
+}
+
+.BackArrow {
+  width: 27px;
+  height: 19px;
+  background-color: transparent;
+  transition: transform 0.3s ease-in-out;
+  border-width: 0px;
+  position: absolute;
+  left: 0px;
+  padding: 5px;
+}
+
+.BackArrow:active {
+  transform: scale(0.8);
+  transition: transform 0.2s ease-in-out;
+}
+
+.uploadBio:active {
+  transform: scale(0.85);
+  transition: transform 0.2s ease-in-out;
+}
+
+.linkedin-banner {
+  border-radius: 5px;
+  padding: 2px;
+  border: 1px solid #c5c5c5;
+}
+
+.linkedin-banner-DarkTheme {
+  border: 2px solid #ff0b37;
+}
+
+.ProfileVideoDiv {
+  /* background-color: cadetblue; */
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.uploadBtn {
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  border-width: 0px;
+  position: absolute;
+  top: -38px;
+  right: 7px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.uploadBtn:active {
+  transform: scale(0.8);
+  transition: transform 0.2s ease-in-out;
+}
+
+.uploadImg {
+  width: 30px;
+  height: 30px;
+}
+
+.Closebtn {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+  height: 22px;
+  border-width: 0px;
+  width: 30px;
+  position: absolute;
+  transition: transform 0.3s ease-in-out;
+  right: 1px;
+  top: 4px;
+}
+
+.Closebtn:active {
+  transform: scale(0.8);
+  transition: transform 0.2s ease-in-out;
+}
+
+@media (min-width: 1024px) {
+  .linkedin-banner {
+    width: 92%;
+    height: 175px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .profliePicBox > div > h3 {
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+  .linkedin-banner {
+    width: 100%;
+    height: 150px;
+  }
+
+  .profliePicBox > img {
+    width: 120px;
+  }
+}
+
+@media (max-width: 767px) {
+  .profliePicBox > div > h3 {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-size: 17px;
+  }
+  .profliePicBox > div > p {
+    font-size: 13px;
+  }
+  .linkedin-banner {
+    width: 100%;
+    height: 150px;
+  }
+  .bannerContainer,
+  .profliePicContainer {
+    width: 95%;
+  }
+  .ProfileVideoDiv {
+    width: 93%;
+  }
+  .editBtn {
+    width: 18px;
+  }
+
+  .profliePicBox > img {
+    width: 100px;
+  }
+  .profliePicBox > div > p {
+    font-size: 14px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media (max-width: 500px) {
+  .bannerContainer,
+  .profliePicContainer {
+    width: 90%;
+    margin-top: 40px;
+  }
+  .profliePicContainer {
+    margin-top: 20px;
+  }
+  .ProfileVideoDiv {
+    margin-top: 40px;
+  }
+  .editBtn {
+    position: absolute;
+    right: -1px;
+    top: -21px;
+    width: 17px;
+  }
+  .profliePicBox > img {
+    width: 85px;
+  }
+}
+
+@media (max-width: 400px) {
+  .linkedin-banner {
+    height: 132px;
+  }
+}
+
+.bgColor {
+  background-color: #bcbcbc;
+}

@@ -1,0 +1,29 @@
+.width {
+  width: 19px;
+}
+
+.MoonWidth {
+  width: 19px;
+}
+
+.UserLogo_Nav {
+  width: 17px;
+}
+.SideBarIcon {
+  width: 28px;
+}
+
+
+.MoonWidth,
+.UserLogo_Nav {
+  transition: transform 0.3s ease-in-out;
+}
+
+.UserLogo_Nav:active {
+  transform: scale(0.7);
+  transition: transform 0.2s ease-in-out;
+}
+.MoonWidth:active {
+  transform: scale(0.7);
+  transition: transform 0.2s ease-in-out;
+}

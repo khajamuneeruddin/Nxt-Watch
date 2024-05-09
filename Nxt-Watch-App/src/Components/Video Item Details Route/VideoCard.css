@@ -1,0 +1,42 @@
+/* .videoCardItem {
+  width: calc(33.33% - 10px);
+
+  @media screen and (max-width: 1200px) {
+    width: 48%;
+  }
+  @media screen and (max-width: 768px) {
+    width: 96%;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 100%;
+  }
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+} */
+.videoCardItem > .Animation > div > iframe {
+  border-radius: 7px;
+  background-color: transparent;
+}
+
+.videoCardItem {
+  width: 100%;
+}
+
+.DivPara {
+  padding: 9px 7px 0px;
+}
+
+.DivPara > p {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#dis {
+  display: "flex";
+  flex-direction: column;
+  justify-content: space-between;
+  height: "76%";
+}

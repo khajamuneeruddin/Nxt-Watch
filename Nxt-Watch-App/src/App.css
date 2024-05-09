@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@100..900&family=Sedan+SC&family=Sedgwick+Ave+Display&display=swap');
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#MainDarkThemeContainer {
+  height: 100vh;
+}
+
+.DarkTheme {
+  background-color: black;
+}
+
+.mainContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  height: calc(100vh - 64px);
+}
+
+#MainDarkThemeContainer {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

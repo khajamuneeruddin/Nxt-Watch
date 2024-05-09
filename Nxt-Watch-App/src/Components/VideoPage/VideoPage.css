@@ -1,0 +1,261 @@
+.VideoPageMainConatiner {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.midDivVideoContainer {
+  padding: 20px;
+  padding-top: 35px;
+  width: 90%;
+  height: 92%;
+  /* background-color: brown; */
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  position: relative;
+}
+
+.VideoPageVideoDiv {
+  width: 70%;
+  height: 80%;
+}
+
+.VideoPageSuggestionDiv {
+  width: 30%;
+  background-color: red;
+}
+
+.BackPos {
+  position: fixed;
+  top: 70px;
+  left: 20px;
+  width: 17px;
+  background-color: transparent;
+  border: none;
+}
+
+#videoDisplay {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 76%;
+}
+
+@media screen and (max-width: 790px) {
+  .midDivVideoContainer {
+    flex-direction: column;
+    width: 95%;
+    padding: 10px;
+    padding-top: 40px;
+  }
+  .VideoPageVideoDiv {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 600px) {
+  .VideoPageVideoDiv > div {
+    width: 100%;
+    height: 65%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .VideoPageVideoDiv > .videoCardItem > .Animation > div > iframe {
+    height: 113%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 790px) {
+  .VideoPageVideoDiv > div {
+    width: 100%;
+    height: 75%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .VideoPageVideoDiv > .videoCardItem > .Animation > div > iframe {
+    height: 140%;
+  }
+}
+
+@media screen and (min-width: 790px) and (max-width: 1000px) {
+  .midDivVideoContainer {
+    width: 95%;
+    padding-right: 0px;
+  }
+  .VideoPageVideoDiv > div {
+    height: 76%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .VideoPageVideoDiv > .videoCardItem > .Animation > div > iframe {
+    height: 140%;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1330px) {
+  .VideoPageVideoDiv > div {
+    height: 96%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .VideoPageVideoDiv > .videoCardItem > .Animation > div > iframe {
+    height: 160%;
+  }
+}
+
+@media screen and (min-width: 1330px) {
+  .VideoPageVideoDiv > div {
+    height: 110%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .VideoPageVideoDiv > .videoCardItem > .Animation > div > iframe {
+    height: 190%;
+  }
+}
+
+.VideoPageSuggestionDiv > .videoCardItem > .Animation > div {
+  height: 80%;
+}
+
+.VideoPageSuggestionDiv > .videoCardItem > .Animation {
+  height: 150px;
+}
+
+.btnTran {
+  border: none;
+  background-color: transparent;
+}
+
+/* @media screen and  (min-width: 1330px) {
+  .VideoPageVideoDiv > div {
+    height: 110%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .VideoPageVideoDiv > .videoCardItem > .Animation > div > iframe {
+    height: 190%;
+  }
+} */
+
+/* 
+@media screen and (min-width: 1100px) {
+  .VideoPageVideoDiv > .videoCardItem > .Animation > div > iframe {
+    height: 190%;
+  }
+  .BackPos {
+    left: 55px;
+  }
+}
+
+@media screen and (min-width: 860px) and (max-width: 1100px) {
+  .VideoPageVideoDiv > .videoCardItem > .Animation > div > iframe {
+    height: 140%;
+  }
+  .midDivVideoContainer {
+    padding: 0px;
+    padding-top: 40px;
+    width: 92%;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1199px) {
+  .BackPos {
+    left: 50px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .midDivVideoContainer {
+    flex-direction: column;
+  }
+  .VideoPageVideoDiv {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 860px) {
+  .VideoPageVideoDiv > .videoCardItem > .Animation > div > iframe {
+    height: 125%;
+  }
+}
+
+@media screen and (min-width: 560px) and (max-width: 639px) {
+  .midDivVideoContainer {
+    width: 95%;
+    padding: 10px;
+    padding-top: 40px;
+  }
+  .VideoPageVideoDiv > .videoCardItem > .Animation > div > iframe {
+    height: 120%;
+  }
+}
+
+@media screen and (max-width: 559px) {
+  .midDivVideoContainer {
+    width: 95%;
+    padding: 10px;
+    padding-top: 40px;
+  }
+} */
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+/* 
+@media screen and (min-width: 900px) {
+  .BackPos {
+    left: 50px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .VideoPageVideoDiv > .videoCardItem > .Animation > div > iframe {
+    height: 190%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .midDivVideoContainer {
+    flex-direction: column;
+  }
+  .VideoPageVideoDiv {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 560px) and (max-width: 640px) {
+  .midDivVideoContainer {
+    width: 95%;
+    padding: 10px;
+    padding-top: 40px;
+  }
+  .VideoPageVideoDiv > .videoCardItem > .Animation > div > iframe {
+    height: 120%;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 750px){
+  .VideoPageVideoDiv > .videoCardItem > .Animation > div > iframe {
+    height: 125%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .midDivVideoContainer {
+    width: 95%;
+    padding: 10px;
+    padding-top: 40px;
+  }
+} */

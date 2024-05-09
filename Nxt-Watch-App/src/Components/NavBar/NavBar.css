@@ -1,0 +1,299 @@
+.Nav_NxtWatch_Logo {
+  width: 120px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.Nav_NxtWatch_Logo:active {
+  transform: scale(0.95);
+  transition: transform 0.2s ease-in-out;
+}
+
+.NavBar {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  padding-top: 6px;
+}
+.NavBar_Comp {
+  width: 96%;
+
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.NavBar_Comp_rightBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  @media screen and (max-width: 500px) {
+    gap: 10px;
+  }
+}
+
+.block {
+  display: block;
+}
+
+.searchBarBox {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  border: 1px solid black;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 27%;
+
+  min-width: 250px;
+}
+
+.searchBarBox > input {
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 4px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-width: 0px;
+  padding-left: 3px;
+}
+
+.searchBarBox > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff0b37;
+  transition: transform 0.3s ease-in-out;
+  width: 35px;
+  border-width: 0px;
+  border-radius: 3px;
+}
+
+.searchBarBox > button:active {
+  transform: scale(0.9);
+  transition: transform 0.2s ease-in-out;
+}
+
+.DarkLogoBtn {
+  width: 32px;
+  height: 28px;
+  border: none;
+  background-color: transparent;
+}
+
+.NavProfileLogoBtn {
+  width: 30px;
+  height: 30px;
+  background-color: #cbd5e1;
+  border: none;
+  border-radius: 50%;
+}
+
+.NavBar_Comp_rightBox > button {
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavBar_Comp_rightBox > button:active {
+  transform: scale(0.95);
+  transition: transform 0.2s ease-in-out;
+}
+
+.Nav_Logout_Btn {
+  width: 80px;
+  height: 28px;
+  background-color: transparent;
+  border: 2px solid #3b82f6;
+  border-radius: 3px;
+  color: #3b82f6;
+  font-weight: 580;
+  margin-left: 10px;
+}
+
+.color {
+  border-color: #fff;
+  color: #fff;
+}
+.BackGroungBlack {
+  background-color: #0f0f0f;
+  border-bottom: 1px solid #0f0f0f;
+
+  z-index: 33;
+}
+
+.BackGroungAnyColor {
+  background-color: #fff;
+  border-bottom: 1px solid #fff;
+
+  z-index: 33;
+}
+
+.mainInputDiv {
+  display: flex;
+  width: 100%;
+  padding: 0px 5px;
+}
+
+@media (max-width: 500px) {
+  .searchBarBox {
+    min-width: 180px;
+  }
+}
+
+.widthClose {
+  width: 15px;
+  border-width: 0px;
+  background-color: transparent;
+  transition: transform 0.3s ease-in-out;
+  margin-left: auto;
+}
+.widthClose:active {
+  transform: scale(0.85);
+  transition: transform 0.2s ease-in-out;
+}
+
+.expandInput {
+  width: 0px;
+  outline: none;
+  transition: width 0.12s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.expandInput1 {
+  outline: none;
+  transition: width 0.26s cubic-bezier(0.42, 0, 0.58, 1);
+  width: 200px;
+}
+
+.inputDiv-Div {
+  position: absolute;
+  width: auto;
+
+  width: 100%;
+
+  top: 0.9%;
+  z-index: 33;
+  right: 48%;
+  left: 32%;
+}
+.hideBtn {
+  display: block;
+  margin-left: auto;
+}
+.hideBtn > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff0b37;
+  transition: transform 0.3s ease-in-out;
+  width: 32px;
+  border-width: 0px;
+  border-radius: 3px;
+  height: 30px;
+}
+.hideBtn > button:active {
+  transform: scale(0.85);
+  transition: transform 0.2s ease-in-out;
+}
+
+.hideBtn1 {
+  display: flex;
+}
+
+.menubtn {
+  transition: transform 0.3s ease-in-out;
+  background-color: transparent;
+  border: none;
+  width: 24px;
+  height: 25px;
+}
+
+.menubtn:active {
+  transform: scale(0.85);
+  transition: transform 0.2s ease-in-out;
+}
+
+.posDiv {
+  /* position: relative; */
+  display: block;
+}
+
+/* .NavBar_Comp_rightBox {
+  position: absolute;
+  flex-direction: column;
+} */
+
+.divPostion {
+  margin-left: auto;
+}
+
+.itemBlock {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .divPostion {
+    position: relative;
+  }
+  .hideBtn {
+    position: absolute;
+    z-index: 999;
+    right: 1px;
+    top: -15px;
+  }
+  .hideBtn1 {
+    position: absolute;
+    z-index: 999;
+    right: 1px;
+    top: -15px;
+  }
+}
+
+@media (max-width: 700px) {
+  .block {
+    display: none;
+  }
+
+  .itemBlock {
+    display: block;
+    margin: 0px 6px;
+  }
+  .posDiv {
+    display: none;
+  }
+  .itemBlock {
+    position: relative;
+  }
+  .NavBar_Comp_rightBox {
+    z-index: 99;
+    position: absolute;
+    right: 20px;
+    top: 57px;
+    border-radius: 8px;
+
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3), 0 10px 10px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    gap: 15px;
+  }
+  .Nav_Logout_Btn {
+    margin-left: 0px;
+  }
+}
+
+@media (min-width: 780px) {
+  .expandInput1 {
+    width: 300px;
+  }
+}
+
+.posDis {
+  display: block;
+}

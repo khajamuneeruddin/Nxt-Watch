@@ -1,0 +1,198 @@
+/* 
+
+
+
+
+
+.SideBarElements {
+  height: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  //// background: #94a3b8; 
+}
+
+
+
+
+
+
+
+.connectWithMe {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+
+
+.connectWithMe {
+  display: block;
+}
+
+
+
+} */
+
+/* */
+
+.sideBarContainingElementsContainer > a {
+  width: 100%;
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+}
+
+.SideBar_BottomDiv > button {
+  width: 30px;
+  border: none;
+  background: transparent;
+}
+
+.SideBar_BottomDiv {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.SideBarElements > div {
+  width: 75%;
+  padding-left: 15px;
+}
+
+.SideBarElements > div > p {
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+.SideBar {
+  display: flex;
+  flex-direction: column;
+  height: 93%;
+  align-items: center;
+  position: fixed;
+  width: 14%;
+  min-width: 135px;
+  max-width: 185px;
+  /* Added background color for visualization */
+}
+
+.SideBarPos {
+  height: 100%;
+  width: 100%;
+  max-width: inherit;
+}
+
+.nonSences {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.sideBarContainingElementsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  margin-top: 15px;
+  gap: 6px;
+}
+
+@media screen and (min-width: 650px) and (max-width: 1190px) {
+  .sideBarContainingElementsContainer {
+    width: 93%;
+  }
+}
+
+.SideBarElements {
+  /* display: flex;
+  width: 100%;
+  align-items: center; */
+  height: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.SideBar_BottomDiv {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.SideBar_BottomDiv > button > a {
+  width: 10px;
+}
+
+.connectWithMe {
+  color: aqua;
+}
+
+.sideBarContainingElementsContainer > a {
+  margin-top: 10px;
+}
+
+.SideBar_BottomDiv > button {
+  width: 30px;
+  height: 45px;
+}
+
+@media screen and (max-width: 650px) {
+  .Block {
+    display: none;
+  }
+  .SideBar {
+    min-width: 50px;
+    width: 52px;
+  }
+  .SideBarElements {
+    width: 50%;
+    padding: 0px;
+  }
+  .SideBarIcon {
+    width: 25px;
+  }
+  .SideBar_BottomDiv {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .connectWithMe {
+    display: none;
+  }
+  .SideBar_BottomDiv {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.active {
+  background-color: #ff0b37;
+  transition: background-color 0.25s ease;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .AllVideoContainer {
+    justify-content: center;
+  }
+}
+

@@ -1,0 +1,16 @@
+.videoCardBigContainer {
+  width: 100%;
+  gap: 10px;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+  display: flex;
+  flex-direction: row;
+}
+.videoCardBigContainer > .Animation > div > iframe {
+  border-radius: 7px;
+  background-color: transparent;
+}
+.Animation{
+    width: 60%;
+}

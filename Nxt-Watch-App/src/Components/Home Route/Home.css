@@ -1,0 +1,92 @@
+.NavBarInHome {
+  position: relative;
+  width: 100%;
+  height: 64px;
+}
+
+.NavBarInHome > div {
+  position: fixed;
+}
+
+.HomeMainContainer {
+  margin-left: auto;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  width: calc(100% - 13%);
+}
+
+@media screen and (min-width: 1292px) {
+  .HomeMainContainer {
+    width: calc(100% - 190px);
+  }
+}
+
+.VideoPlayerContainer {
+  width: 95%;
+  height: 100%;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 650px) and (max-width: 930px) {
+  .HomeMainContainer {
+    width: calc(100% - 136px);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .HomeMainContainer {
+    width: calc(100% - 60px);
+  }
+}
+
+.AllVideoContainer1231 > div > div {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.Animation {
+  transition: transform 0.3s ease-in-out;
+}
+
+.Animation:hover {
+  transform: scale(0.99);
+  transition: transform 0.2s ease-in-out;
+}
+
+.VideoPlayerContainer-Heading {
+  margin-bottom: 12px;
+}
+
+.AllVideoContainer1231::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 1200px) {
+  .VideoPlayerContainer {
+    width: 97%;
+  }
+}
+
+.AllVideoContainer1231 > div > div > button {
+  width: calc(33.33% - 10px);
+  border: none;
+  background-color: transparent;
+
+  @media screen and (max-width: 1200px) {
+    width: 48%;
+  }
+  @media screen and (max-width: 768px) {
+    width: 96%;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 100%;
+  }
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
